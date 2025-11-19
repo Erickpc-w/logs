@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 日誌檔案
+*.log
+logs/
+*.log.*
+
+# 環境變數和敏感資訊
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.cert
+*.crt
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 測試
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 其他
+*.bak
+*.tmp
+*.temp
+
+.cursorindexingignore
+.specstory/
